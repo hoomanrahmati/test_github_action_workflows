@@ -12,9 +12,9 @@ class DemoApplicationTests {
 	void contextLoads() {
 		Hello hello = new Hello();
 		hello.setId(1);
-		hello.setName("oneYYY");
+		hello.setName("oneAAA");
 
-		assertEquals("oneYYY", hello.getName());
+		assertEquals("oneAAA", hello.getName());
 	}
 
 }
