@@ -15,7 +15,7 @@ public class DemoApplication {
 	public String hello() {
 		Hello hello = new Hello();
 		hello.setId(1);
-		hello.setName("World2");
+		hello.setName("World3");
 		return "Hello "+hello.getName();
 	}
 
