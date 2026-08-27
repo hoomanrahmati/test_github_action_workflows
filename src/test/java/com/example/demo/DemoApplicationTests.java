@@ -14,7 +14,7 @@ class DemoApplicationTests {
 		hello.setId(1);
 		hello.setName("one");
 
-		assertEquals("onexxx", hello.getName());
+		assertEquals("one", hello.getName());
 	}
 
 }
