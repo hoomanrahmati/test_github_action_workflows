@@ -12,7 +12,7 @@ class DemoApplicationTests {
 	void contextLoads() {
 		Hello hello = new Hello();
 		hello.setId(1);
-		hello.setName("oneYYY");
+		hello.setName("one");
 
 		assertEquals("oneYYY", hello.getName());
 	}
